@@ -8,7 +8,7 @@ const { DataTypes } = require('sequelize');
 const config = {
   DB_DATABASE: 'mysql',
   DB_USERNAME: 'talha',
-  DB_PASSWORD: '@Talha123',
+  DB_PASSWORD: 'Talha_123',
   DB_ADAPTER: 'mysql',
   DB_NAME: `talha_scammersdatabase`,
   DB_HOSTNAME: 'mysql-talha.alwaysdata.net',
