@@ -39,6 +39,14 @@ let sequelize = new Sequelize(config.DB_DATABASE, config.DB_USERNAME, config.DB_
   },
 });
 
+sequelize
+  .authenticate()
+  .then(() => {
+    console.log('Connection has been established successfully.');
+  })
+  .catch(err => {
+    console.error('Unable to connect to the database:', err);
+  });
 //sequelize.sync({ force: true });
 
 fs.readdirSync(__dirname)
