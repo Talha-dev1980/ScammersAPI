@@ -7,12 +7,12 @@ const basename = path.basename(__filename);
 const { DataTypes } = require('sequelize');
 const config = {
   DB_DATABASE: 'mysql',
-  DB_USERNAME: 'root',
-  DB_PASSWORD: '',
+  DB_USERNAME: 'talha',
+  DB_PASSWORD: '@Talha123',
   DB_ADAPTER: 'mysql',
-  DB_NAME: `scammersdata`,
-  DB_HOSTNAME: 'localhost',
-  DB_PORT: 3307,
+  DB_NAME: `talha_scammersdatabase`,
+  DB_HOSTNAME: 'mysql-talha.alwaysdata.net',
+  DB_PORT: 3306
 };
 
 let db = {};
