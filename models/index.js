@@ -6,13 +6,14 @@ let Sequelize = require('sequelize');
 const basename = path.basename(__filename);
 const { DataTypes } = require('sequelize');
 const config = {
-  DB_DATABASE: 'mysql',
-  DB_USERNAME: 'talha',
-  DB_PASSWORD: 'Talha_123',
+ DB_DATABASE: 'mysql',
+  DB_USERNAME: 'epiz_33113235',
+  DB_PASSWORD: 'O9mR5HxTCTofBOa',
   DB_ADAPTER: 'mysql',
-  DB_NAME: `talha_scammersdatabase`,
-  DB_HOSTNAME: 'mysql-talha.alwaysdata.net',
-  DB_PORT: 3306
+  DB_NAME: `epiz_33113235_XXX`,
+  DB_HOSTNAME: 'sql213.epizy.com',
+  DB_PORT: 3306,
+ 
 };
 
 let db = {};
